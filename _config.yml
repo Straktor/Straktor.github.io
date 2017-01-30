@@ -1,9 +1,9 @@
 # Site settings
-title: Dong Liang's CV 
-description: ddbullfrog's CV
+title: Alexandre's personal page 
+description: Alexandre's personal page
 favicon: /assets/img/avatar.JPG
-baseurl: https://ddbullfrog.github.io/resumecard
-url: https://ddbullfrog.github.io/resumecard
+# baseurl: https://straktor.github.io
+url: https://straktor.github.io
 rss_url: /pages/atom.xml
 google_analytics: UA-63653234-1
 
@@ -14,72 +14,99 @@ exclude: [vendor]
 
 # Author settings
 author:
-  name: Dong Liang
-  title: Java Developer
-  address: Auckland, New Zealand
-  email: dongg.liang@gmail.com
-  link: http://ddbullfrog.com
+  name: Alexandre Boulay
+  title: Developer
+  address: Montreal, Canada
+  email: aboulay@outlook.com
+  link: http://straktor.github.com
   weibo:
-  github: ddbullfrog
-  linkedin: ddbullfrog
-  twitter: ddbullfrog
+  github: straktor
+  linkedin: alexandreboulay
+  twitter: 
   gavatar: /resumecard/assets/img/avatar.JPG
-  stackoverflow:
-#  stackoverflow: 4582127
   workHistory:
     - work1:
-      company: Finzsoft Solutions Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
-      started: 2014
-      duration: (2014 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company:  GIRO
+      location: Montreal, Canada
+      title: Analyst Programmer
+      started: 2015
+      duration: (2015 - Present)
+      descriptions:
+        - p: Public transport and postal organizations trust GIRO’s software solutions to plan, optimize, and manage their operations. Since 1979, we’ve developed unparalleled expertise. Our unique public transport and postal industry know-how and advanced technological capabilities in software development, optimizer design and project implementation define us.
     - work2:
-      company: Agfa HealthCare
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Accenture
+      location: Montreal, Canada
+      title: PLM Consultant
+      started: 2015
+      duration: (5 months)
+      descriptions:
+        - p: Accenture is a global management consulting, technology services and outsourcing company, that collaborates with clients to help them become high-performance businesses and governments.
     - work3:
-      company: Citigroup Services and Technology (China) Limited
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: IREQ (Research institute of Hydro-Québec)
+      location: Varennes, Cadana
+      title: Software Developer (Intern)
+      started: 2014
+      duration: (4 months)
+      descriptions:
+        - p: The Research institute of Hydro-Québec (IREQ) puts its expertise and energy into supporting Hydro-Québec, helping the company improve the performance of its operations, develop areas of growth and better serve its customers
+        - p: Internship 5
+        - p: Design of an inspection robot
+        - p: "- Integrate multiple sensors using ROS"
+        - p: "- Develop a QT graphical user interface"
+        - p: "- Add ROS control nodes to the robots"
+    - work4:
+      company: Caterpillar Inc.
+      location: Laval, Cadana
+      title: Software Developer (Intern)
+      started: 2013
+      duration: (4 months)
+      descriptions:
+        - p: Caterpillar Inc., is an American corporation which designs, develops, engineers, manufactures, markets and sells machinery, engines, financial products and insurance to customers via a worldwide dealer network.
+        - p: Internship 4
+        - p: Heavy machinery automation
+        - p: "- Develop a python server"
+        - p: "- Develop a web interface"
+        - p: "- Develop a system installation tool"
+    - work5:
+      company: Ultra Electronics, TCS
+      location: Montreal, Cadana
+      title: Software Developer (Intern)
+      started: 2012
+      duration: (4 months)
+      descriptions:
+        - p: The Ultra Electronics Group manages a wide range of specialist capabilities, generating highly-differentiated solutions and products in the defence & aerospace, security & cyber, transport and energy markets by applying electronic and software technologies in demanding environments and critical applications to meet customer needs.
+        - p: Internship 3
+        - p: Ultra Electronics equipment automation using Perl
+        - p: "- Develop graphical user interfaces using TK framework"
+        - p: "- Develop a XML standard for equipement description"
+        - p: "- Configure a linux server for tool testing"
+    - work6:
+      company: Radio IP Software, Inc 
+      location: Montreal, Cadana
+      title: Software Developer (Intern)
+      started: 2011
+      duration: (4 months x2)
+      descriptions:
+        - p: Radio IP Software delivers innovative mobile virtual private network (MVPN) solutions that provide mobile workforces with secure, real-time access to a wide range of applications and networks.
+        - p: Internship 1 and 2
+        - p: Radio IP software tests automation
+        - p: "- Create an automation tool allowing interaction with graphic applications"
+        - p: "- Automate the detection of the newest build to be tested"
+        - p: "- Develop and update a control module executing scripts on multiple devices"
+        - p: "- Develop synchronized test scripts for a TCP communication"
   educationHistory:
     - education1:
-      organization: Northeastern University
-      location: Shenyang, China
+      organization: Sherbrooke University
+      location: Sherbrooke, Canada
       degree: Bachelor
-      major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      major: Computer Engineering
+      started: 2010
+      duration: (2010 - 2014)
+      description: Computer engineering is a discipline that integrates several fields of electrical engineering and computer science required to develop computer hardware and software.  This Program provides training in electrical engineering, software design, and hardware-software integration.
   languages:
     - language1:
-      name: Chinese
+      name: French
       proficiency: Native
     - language2:
       name: English
       proficiency: Professional
-    - language3:
-      name: Japanese
-      proficiency: Limit
-  programmingSkills:
-    - skill1:
-      name: HTML
-      percentage: 100%
-    - skill2:
-      name: Bootstrap
-      percentage: 90%
-    - skill3:
-      name: JavaScript
-      percentage: 70%
-    - skill4:
-      name: AngularJS
-      percentage: 70%
-    - skill5:
-      name: Java/Java EE
-      percentage: 90%
